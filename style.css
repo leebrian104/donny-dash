@@ -6,7 +6,8 @@
 #game{
     width: 500px;
     height: 200px;
-    border: 1 px solid black;
+    border: solid black 1px;
+    margin: auto;
 }
 
 #character{
@@ -16,12 +17,28 @@
     position: relative;
     top: 150px;
 }
+.animate{
+    animation: jump 500ms linear;
+}
+
+@keyframes jump{
+    0%{top: 150px;}
+    30%{top: 100px;}
+    70%{top: 100px;}
+    100%{top: 150px;}
+}
 
 #block{
     width: 20px;
     height: 20px;
     background-color: blue;
     position: relative;
-    top: 130 px;
-    left: 480 px;
+    top: 130px;
+    left: 500px;
+    animation: block 1s infinite linear;
+}
+
+@keyframes block{
+    0%{left: 500px;}
+    100%{left: -20px;}
 }
