@@ -13,7 +13,7 @@ function jump(){
 let checkHit = setInterval(function(){
     let characterTop = parseInt(window.getComputedStyle(character).getPropertyValue("top"));
     let blockLeft = parseInt(window.getComputedStyle(block).getPropertyValue("left"));
-    if(blockLeft < 20 && blockLeft > -20 && characterTop >= 130){
+    if(blockLeft < 70 && blockLeft > 50 && characterTop >= 130){
         block.style.animation = "none";
         alert("Game Over! Score: " + Math.floor(counter/100));
         counter = 0;
