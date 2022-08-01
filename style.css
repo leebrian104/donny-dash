@@ -29,13 +29,15 @@
 }
 
 #block{
-    width: 20px;
-    height: 20px;
-    background-color: blue;
     position: relative;
     top: 130px;
     left: 500px;
     animation: block 1s infinite linear;
+}
+
+img{
+    height: 20px;
+    width: 20px;
 }
 
 @keyframes block{
