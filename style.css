@@ -3,7 +3,7 @@
     margin: 0;
 }
 
-#game{
+.game{
     width: 500px;
     height: 200px;
     border: solid black 1px;
@@ -41,4 +41,8 @@
 @keyframes block{
     0%{left: 500px;}
     100%{left: -20px;}
+}
+
+p{
+    text-align: center;
 }
