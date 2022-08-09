@@ -13,11 +13,16 @@
 #character{
     width: 20px;
     height: 50px;
-    background-color: red;
     position: relative;
     top: 150px;
     left: 50px;
 }
+
+.donny{
+    height: 50px;
+    width: auto;
+}
+
 .animate{
     animation: jump 500ms linear;
 }
@@ -36,7 +41,7 @@
     animation: block 1s infinite linear;
 }
 
-img{
+.poop{
     height: 20px;
     width: 20px;
 }
