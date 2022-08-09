@@ -14,8 +14,6 @@
 <li>Add option to save scores</li>
 <li>Create leaderboard & function to share score with friends</li>
 
+<h1>Character Credit:</h1>
+<p>Thanks Danial!</p>
 </br>
-
-Character credit:
-
-Thanks Danial!
